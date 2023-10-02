@@ -314,6 +314,13 @@ footer {
         max-width: none;
         align-items: center;
     }
+    .main-ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        height: 25px;
+        float: right;
+    }
 
     .header {
         max-width: none;
