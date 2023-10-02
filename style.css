@@ -74,12 +74,15 @@
 
 .header-nav-items {
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
 
 .main-ul {
-    height: 25px;
+    display: flex;
+    flex-direction: column;
+    height: 110px;
     list-style: none;
     background-color: rgb(4, 184, 255);
     padding-inline-start: 0;
@@ -142,13 +145,13 @@
 }
 
 .main-nav-content :nth-child(2) {
-    order: 3;
-}
-.main-nav-content :nth-child(1) {
     order: 1;
 }
-.main-nav-content :nth-child(3) {
+.main-nav-content :nth-child(1) {
     order: 2;
+}
+.main-nav-content :nth-child(3) {
+    order: 3;
 }
 
 .table {
